@@ -1,0 +1,95 @@
+body {
+    background-image: url('https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/npf-themes/theme_2025/assets/images/bg_main_july.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1022px;
+    margin: auto;
+}
+
+nav {
+    background-color: #008532;
+    padding: 8px 16px;
+    height: 56px;
+    margin-left: 1px;
+}
+nav .navbar-brand {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-right: 24px;
+}
+nav .nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+.navbar .container {
+    display: flex;
+    align-items: center;
+}
+nav a{
+    margin-right: 16px;
+}
+nav select {
+    width: 80px;
+    background-color: #fff2;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    height: 24px;
+    box-shadow: 0 0 4px #63636333;
+}
+nav option {
+    color: black;
+}
+nav .btn1 {
+    background-color: #ED3131;
+    color: white;
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px 16px;
+    font-weight: 700;
+}
+nav form {
+    gap: 3px;
+    align-items: center;
+}
+/* nav .search-bar{
+    margin-right: 10px;
+} */
+nav .search-bar input {
+    border-radius: 28px;
+    border-width: 0;
+    padding: 6px 10px 6px 15px;
+    width: auto;
+    line-height: 18px;
+    box-shadow: 0 0 4px #63636333;
+    outline: none;
+    font-size: 12px;
+    position: relative;
+}
+nav .search-icon {
+    position: absolute;
+    margin-left: 140px;
+    color: gray;
+}
+nav .translate  {
+    margin-left: 14px;
+    margin-top: -6px;
+    margin-right: 5px;
+}
+nav .btn-2 {
+    background-color: transparent;
+    color: white;
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px;
+}
+nav form img {
+    width: auto;
+}
