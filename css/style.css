@@ -160,4 +160,22 @@ nav form img {
   color: white;
   border-radius: 5px;
 }
-
+/* menu end  */
+/* level start  */
+#contant .left {
+  width: 70%;
+}
+#contant .left .level {
+  border: 1px solid rgb(218, 212, 212);
+  border-radius: 5px;
+  margin: 20px 30px;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 14px;
+}
+#contant .left .level marquee a{
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+}
+/* level end  */
