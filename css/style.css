@@ -93,64 +93,71 @@ nav form img {
 /* nav end  */
 /* menu start  */
 #menu {
-  background-color: #00a63e;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 16px;
+  background: #00a63e;
   display: flex;
+  gap: 10px;
+  padding: 10px;
   color: white;
-  margin-left: 1px;
 }
-#menu a {
-  color: #fff;
+#menu img {
+  width: 30px;
+  color: white;
   background-color: #fff0;
   filter: brightness(10);
+  margin-left: 8px;
 }
 .box {
   position: relative;
-  padding: 10px;
-  background: #fff0;
-  width: 200px;
-  font-size: 14x;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
 }
 .box i {
   font-size: 14px;
+  margin-left: 5px;
 }
 .box:hover {
-  background: #fff4;
-}
-.box:has(.options span:hover) {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.2);
 }
 .options {
+  width: 300px;
   position: absolute;
   top: 100%;
   left: 0;
   background: white;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2px;
+  color: black;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   opacity: 0;
-  transform: translateY(10px);
   visibility: hidden;
-  transition: all 0.3s ease;
+  transform: translateY(10px);
+  transition: 0.3s;
+  z-index: 100;
 }
 .box:hover .options {
   opacity: 1;
-  transform: translateY(0);
   visibility: visible;
-  color: #202020;
+  transform: translateY(0);
 }
 .options span {
   padding: 10px;
-  cursor: pointer;
   border-bottom: 1px dotted #ccc;
-  font-size: 12px;
-  width: 180px;
+  font-size: 13px;
 }
 .options span:hover {
-  border-bottom: 2px solid black;
-  background: rgba(158, 250, 181, 0.3);
+  background: #eaffea;
 }
+#toggleBtn {
+  margin-left: auto;
+  background: rgba(255,255,255,0.2);
+  border: none;
+  padding: 8px 20px;   
+  height: 40px;        
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  border-radius: 5px;
+}
+
