@@ -179,3 +179,52 @@ nav form img {
   font-weight: 400;
 }
 /* level end  */
+/* notice  */
+#contant .left .notice {
+  border: 1px solid rgb(218, 212, 212);
+  border-radius: 5px;
+  margin: 20px 30px;
+  padding: 20px;
+  font-size: 12px;
+}
+#contant .left .notice .heading {
+  font-size: 20px;
+  font-weight: 900;
+}
+#contant .left .notice .file {
+  background-color: white;
+  color: #00a63e;
+}
+#contant .left .notice .line {
+  margin: 20px 0;
+  border: 0.5px solid rgb(218, 212, 212)
+}
+#contant .left .notice .part .top {
+  align-items: center;
+}
+#contant .left .notice .part .top .circle {
+  width: 10px;
+  height: 10px;
+  background-color: #008532;
+  border-radius: 50%;
+}
+#contant .left .notice .part .top a:hover{
+  color: #00a63e;
+  text-decoration: underline;
+}
+#contant .left .notice .part .bottom {
+  margin-left: 25px;
+  margin-top: 5px;
+}
+#contant .left .notice .part .bottom button{
+  padding: 2px 15px;
+  border: none;
+  border-radius: 15px;
+}
+#contant .left .notice .part .bottom .btn1{
+  background-color: #ed3131;
+  color: white;
+}
+#contant .left .notice .part .bottom .btn2{
+  background-color: #fae9d3;
+}
