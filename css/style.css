@@ -191,6 +191,10 @@ nav form img {
   font-size: 20px;
   font-weight: 900;
 }
+#contant .left .notice .heading i {
+  color: #00a63e;
+  font-weight: 400;
+}
 #contant .left .notice .file {
   background-color: white;
   color: #00a63e;
@@ -227,4 +231,25 @@ nav form img {
 }
 #contant .left .notice .part .bottom .btn2{
   background-color: #fae9d3;
+}
+.btn-all {
+  background: linear-gradient(to right, #00a63e, #008532);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn i {
+  margin-left: 10px;
+}
+#contant .left .notice .news {
+  background-color: #fef2f2;
+  border-radius: 10px;
+}
+#contant .left .notice .news p{
+  color: #008532;
+  font-weight: 900;
+  font-size: 15px;
 }
